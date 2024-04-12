@@ -40,6 +40,7 @@ def predictRoute():
         image = request.json['image']
         decodeImage(image, clApp.filename)
         if not os.path.exists("best.pt"):
+            ## to download model from S3
             S3Operation().download_object(key=ModelPusherConfig.S3_MODEL_KEY_PATH,bucket_name=ModelPusherConfig.MODEL_BUCKET_NAME,filename='best.pt')
 
         os.system("cd yolov7/ && python detect.py --weights best.pt  --source ../data/inputImage.jpg")
