@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/safetygeardetection/train.txt
+val: /content/drive/MyDrive/safetygeardetection/val.txt
+
+nc: 5
+names: ['Helmet','Goggles','Jacket','Gloves','Footwear']

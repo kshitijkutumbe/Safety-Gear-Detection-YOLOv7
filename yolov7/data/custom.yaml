@@ -1,0 +1,5 @@
+train: C:\\Users\Kshitij Kutumbe\\all_projects\\Safety-Gear-Detection-YOLOv7\\train.txt
+val: C:\\Users\\Kshitij Kutumbe\\all_projects\\Safety-Gear-Detection-YOLOv7\\val.txt
+
+nc: 5
+names: ['Helmet', 'Goggles', 'Jacket', 'Gloves', 'Footwear']
