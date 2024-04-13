@@ -1,6 +1,8 @@
 # Safety-Gear-Detection-YOLOv7
 `Computer vision project based on the popular YOLOv7 architecture, for detection of safety gear usage by industrial workers.`
 
+(https://github.com/kshitijkutumbe/Safety-Gear-Detection-YOLOv7/blob/main/flowcharts/flow.svg?raw=true)
+
 [data](https://drive.google.com/file/d/1JYXz31maSgzLfsK9dX6vvpQ4UJdAv2fj/view?usp=drive_link)
 
 - Annotations can be done using labelimg or roboflow: <br>
@@ -127,5 +129,5 @@ python app.py
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  590183920190.dkr.ecr.us-east-1.amazonaws.com/yolov7app
-    ECR_REPOSITORY_NAME = simple-app
+    AWS_ECR_LOGIN_URI = demo>>  590183920190.dkr.ecr.us-east-1.amazonaws.com
+    ECR_REPOSITORY_NAME = yolov7app
