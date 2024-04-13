@@ -1,7 +1,7 @@
 # Safety-Gear-Detection-YOLOv7
 `Computer vision project based on the popular YOLOv7 architecture, for detection of safety gear usage by industrial workers.`
 
-(https://github.com/kshitijkutumbe/Safety-Gear-Detection-YOLOv7/blob/main/flowcharts/flow.svg?raw=true)
+![Flowchart](https://github.com/kshitijkutumbe/Safety-Gear-Detection-YOLOv7/blob/main/flowcharts/flow.svg?raw=true)
 
 [data](https://drive.google.com/file/d/1JYXz31maSgzLfsK9dX6vvpQ4UJdAv2fj/view?usp=drive_link)
 
